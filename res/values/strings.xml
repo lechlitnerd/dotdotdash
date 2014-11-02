@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to DotDotDash</string>
+    <string name="app_name">DotDotDash</string>
+    <string name="info">DotDotDash v1.0\nBen Lechlitner\nben.lechlitner@gmail.com</string>
+    
+    <string name="hint_input">Touch to type</string>
+    
+    <string name="btn_translate">Translate</string>
+   	
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    
+   	<string name="action_settings">Settings</string>
+   	<string name="action_about">About</string>
+    
+    <string name="pref_audio">Audio</string>
+    <string name="pref_audio_summary">Use audible tone in translation</string>
+    <string name="pref_visual">Visual</string>
+    <string name="pref_visual_summary">Use visual cues in translation</string>
+    <string name="pref_vibrate">Vibrate</string>
+    <string name="pref_vibrate_summary">Use vibrate in translation</string>
+    <string name="pref_tones">Tones</string>
+    <string name="pref_tones_summary">Select the tone to use for audible translation</string>
+    <string name="pref_interval">Interval</string>
+    <string name="pref_interval_summary">Length of element time in milliseconds</string>
+    <string name="morse_to_text_hint">Type to begin</string>
+    <string-array name="tones"> 
+	    <item>Standard Tone</item> 
+	    <item>Blah Blah Blah</item> 
+	    <item>Dolphin</item> 
+  	</string-array> 
+  	<string-array name="tones_id"> 
+	    <item>0</item> 
+	    <item>1</item> 
+	    <item>2</item>
+  	</string-array> 
+  	<string-array name="intervals">
+  		<item>25</item> 
+	    <item>50</item> 
+	    <item>100</item> 
+	    <item>200</item> 
+  	</string-array> 
+  	<string-array name="interval_values">
+  		<item>25</item> 
+	    <item>50</item> 
+	    <item>100</item> 
+	    <item>200</item> 
+  	</string-array> 
+  	<string-array name="reference">
+  		<item>A .- (di-dah)</item>
+  		<item>B -... (dah-di-di-dit)</item>
+  		<item>C -.-. (dah-di-dah-dit)</item>
+  		<item>D -.. (dah-di-dit)</item>
+  		<item>E . (dit)</item>
+  		<item>F ..-. (di-di-dah-dit)</item>
+  		<item>G --. (dah-dah-dit)</item>
+  		<item>H .... (di-di-di-dit)</item>
+  		<item>I .. (di-dit)</item>
+  		<item>J .--- (di-dah-dah-dah)</item>
+  		<item>K -.- (dah-di-dah)</item>
+  		<item>L .-.. (di-dah-di-dit)</item>
+  		<item>M -- (dah-dah)</item>
+  		<item>N -. (dah-dit)</item>
+  		<item>O --- (dah-dah-dah)</item>
+  		<item>P .--. (di-dah-dah-dit)</item>
+  		<item>Q --.- (dah-dah-di-dah)</item>
+  		<item>R .-. (di-dah-dit)</item>
+  		<item>S ... (di-di-dit)</item>
+  		<item>T - (dah)</item>
+  		<item>U ..- (di-di-dah)</item>
+  		<item>V ...- (di-di-di-dah)</item>
+  		<item>W .-- (di-dah-dah)</item>
+  		<item>X -..- (dah-di-di-dah)</item>
+  		<item>Y -.-- (dah-di-dah-dah)</item>
+  		<item>Z --.. (dah-dah-di-dit)</item>
+  	</string-array>
+  	<string-array name="nav_values">
+  		<item>Translate</item> 
+	    <item>Reference</item> 
+	    <item>Settings</item>
+  	</string-array> 
+</resources>

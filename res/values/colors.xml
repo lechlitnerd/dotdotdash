@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_source">#000000</color>
+    <color name="list_translation">#718bf9</color>
+    <color name="background">#E1E6FA</color>
+    <color name="white">#ffffff</color>
+    
+</resources>

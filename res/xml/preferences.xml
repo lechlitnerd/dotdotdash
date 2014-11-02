@@ -1,0 +1,30 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Indicator Settings">
+		<CheckBoxPreference
+			android:key="@string/pref_audio"
+			android:title="@string/pref_audio"
+			android:summary="@string/pref_audio_summary"
+		android:enabled="true"/>
+		<CheckBoxPreference
+			android:key="@string/pref_visual"
+			android:title="@string/pref_visual"
+			android:summary="@string/pref_visual_summary"
+		android:enabled="true"/>
+		<CheckBoxPreference
+			android:key="@string/pref_vibrate"
+			android:title="@string/pref_vibrate"
+			android:summary="@string/pref_vibrate_summary" android:defaultValue="true"/>
+	
+<ListPreference android:dialogTitle="Choose element time length" android:title="@string/pref_interval" android:key="@string/pref_interval" android:summary="@string/pref_interval_summary" android:entries="@array/intervals" android:entryValues="@array/interval_values" android:defaultValue="50"></ListPreference>
+</PreferenceCategory>
+	<PreferenceCategory android:title="Tones">
+		<ListPreference 
+			android:key="@string/pref_tones" 
+			android:title="@string/pref_tones" 
+		 	android:summary="@string/pref_tones_summary" 
+		    android:entries="@array/tones" 
+		    android:entryValues="@array/tones_id" 
+		    android:dialogTitle="Choose a tone" android:dependency="@string/pref_audio"/> 
+	</PreferenceCategory>
+</PreferenceScreen>
